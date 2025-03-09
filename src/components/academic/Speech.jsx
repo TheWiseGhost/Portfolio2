@@ -23,7 +23,16 @@ const Speech = () => {
               <li>1st Place Regional Invitational</li>
               <li>1st Place State Invitional</li>
               <li>National Qualifier (Top 3 in State)</li>
-              <li>See all awards</li>
+              <li
+                className="underline hover:cursor-pointer"
+                onClick={() => {
+                  window.open(
+                    "https://postings.speechwire.com/r-comp.php?compid=622920&seasonid=17"
+                  );
+                }}
+              >
+                See all awards
+              </li>
             </ul>
           </div>
         </div>
