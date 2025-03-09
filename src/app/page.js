@@ -13,13 +13,15 @@ import { useState } from "react";
 export default function Home() {
   const [side, setSide] = useState("pro");
   return (
-    <div className="w-full lg:w-[780px] mx-auto pt-16 pb-20">
-      <Hero />
-      <QuickLinks />
-      <PickSide side={side} setSide={setSide} />
-      {side == "pro" ? <ProSide /> : <AcademicSide />}
-      <Projects />
-      <CurrentlyWorkingOn />
+    <div className="bg-white text-black">
+      <div className="w-full lg:w-[780px] mx-auto pt-16 pb-20">
+        <Hero />
+        <QuickLinks />
+        <PickSide side={side} setSide={setSide} />
+        {side == "pro" ? <ProSide /> : <AcademicSide />}
+        <Projects />
+        <CurrentlyWorkingOn />
+      </div>
     </div>
   );
 }
