@@ -12,7 +12,7 @@ const Limeblock = () => {
         actions or navigation for users. Helps make good products have a good UX
         so even the newest of users can use the product easily.
       </p>
-      <div className="flex flex-wrap space-y-1 space-x-1 w-full pr-2 text-xs pb-2">
+      <div className="flex flex-wrap md:space-y-1 space-x-1 w-full pr-2 text-xs pb-2">
         <Tool text={"NextJS"} />
         <Tool text={"Django"} />
         <Tool text={"Vercel"} />

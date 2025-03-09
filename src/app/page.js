@@ -14,7 +14,7 @@ export default function Home() {
   const [side, setSide] = useState("pro");
   return (
     <div className="bg-white text-black">
-      <div className="w-full lg:w-[780px] mx-auto pt-16 pb-20">
+      <div className="w-full lg:w-[780px] mx-auto pt-16 pb-20 px-5 md:px-0">
         <Hero />
         <QuickLinks />
         <PickSide side={side} setSide={setSide} />

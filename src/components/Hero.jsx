@@ -7,7 +7,7 @@ const AnimatedHeading = () => {
 
   return (
     <motion.h1
-      className="text-6xl font-bold flex"
+      className="text-4xl md:text-6xl font-bold flex"
       initial="hidden"
       animate="visible"
       variants={{
@@ -53,10 +53,10 @@ const AnimatedHeading = () => {
 
 const Hero = () => {
   return (
-    <div className="flex flex-row w-full font-inter">
+    <div className="flex flex-row w-full md:px-0 font-inter">
       <div className="flex flex-col space-y-4 w-3/4 pt-3">
         <AnimatedHeading />
-        <h4 className="text-xl text-gray-900">
+        <h4 className="text-sm md:text-xl text-gray-900">
           Software Developer in Chicago. Python (Django) and JS (NextJS) user. I
           love to build useful stuff.
         </h4>
@@ -64,7 +64,7 @@ const Hero = () => {
       <div className="flex w-1/4 justify-end items-center">
         <img
           src="/PixeledMe.png"
-          className="w-full h-3/4 object-cover rounded-3xl"
+          className="w-5/6 md:w-full h-3/4 object-cover rounded-3xl"
         />
       </div>
     </div>

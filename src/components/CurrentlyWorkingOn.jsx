@@ -9,7 +9,7 @@ const CurrentlyWorkingOn = () => {
           What I'm currently working on
         </h1>
       </div>
-      <div className="pt-6 grid grid-cols-2 gap-6">
+      <div className="pt-6 flex flex-col md:grid md:grid-cols-2 gap-6">
         <Limeblock />
       </div>
     </div>

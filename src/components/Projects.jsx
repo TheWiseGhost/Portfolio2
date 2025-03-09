@@ -11,7 +11,7 @@ const Projects = () => {
           View More
         </button>
       </div>
-      <div className="pt-6 grid grid-cols-2 gap-6">
+      <div className="pt-6 flex flex-col md:grid md:grid-cols-2 gap-6">
         <NoteSlide />
         <Competiboard />
       </div>

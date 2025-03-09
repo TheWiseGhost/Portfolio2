@@ -13,7 +13,7 @@ const NoteSlide = () => {
             src="/NoteSlideLogo.png"
             className="size-12 hover:cursor-pointer"
           />
-          <div className="flex h-28 w-0.5 bg-gray-300" />
+          <div className="flex h-40 md:h-28 w-0.5 bg-gray-300" />
         </div>
         <div className="flex flex-col pt-7">
           <p className="text-xs text-gray-700">June 2024 - Present</p>
