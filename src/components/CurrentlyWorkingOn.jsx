@@ -5,7 +5,7 @@ const CurrentlyWorkingOn = () => {
   return (
     <div className="flex flex-col font-inter w-full pt-24">
       <div className="flex flex-row justify-between items-center">
-        <h1 className="text-3xl font-semibold">
+        <h1 className="text-lg md:text-3xl font-semibold">
           What I'm currently working on
         </h1>
       </div>

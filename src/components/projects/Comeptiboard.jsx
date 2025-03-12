@@ -12,9 +12,10 @@ const Competiboard = () => {
         sheet and get a leaderboard back from it. Main use case for businesses
         looking to reward their most engaged users.
       </p>
-      <div className="flex flex-wrap space-x-1 text-xs pb-2">
+      <div className="flex flex-wrap space-y-1 space-x-1 text-xs pb-2">
         <Tool text={"NextJS"} />
         <Tool text={"Django"} />
+        <Tool text={"MongoDB"} />
         <Tool text={"AWS S3"} />
         <Tool text={"Vercel"} />
         <Tool text={"Stripe"} />

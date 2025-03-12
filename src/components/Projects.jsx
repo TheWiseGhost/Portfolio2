@@ -6,8 +6,13 @@ const Projects = () => {
   return (
     <div className="flex flex-col font-inter w-full pt-20">
       <div className="flex flex-row justify-between items-center">
-        <h1 className="text-3xl font-semibold">Featured Projects</h1>
-        <button className="text-gray-800 hover:cursor-pointer hover:text-black">
+        <h1 className="text-xl md:text-3xl font-semibold">Featured Projects</h1>
+        <button
+          onClick={() => {
+            window.location.href = "/projects";
+          }}
+          className="text-sm md:text-base text-gray-800 hover:cursor-pointer hover:text-black"
+        >
           View More
         </button>
       </div>

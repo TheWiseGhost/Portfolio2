@@ -15,6 +15,7 @@ const Limeblock = () => {
       <div className="flex flex-wrap md:space-y-1 space-x-1 w-full pr-2 text-xs pb-2">
         <Tool text={"NextJS"} />
         <Tool text={"Django"} />
+        <Tool text={"MongoDB"} />
         <Tool text={"Vercel"} />
         <Tool text={"Stripe"} />
         <Tool text={"Langchain"} />
