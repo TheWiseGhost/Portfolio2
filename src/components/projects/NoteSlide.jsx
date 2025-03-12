@@ -10,7 +10,7 @@ const NoteSlide = () => {
       <p className="text-gray-800 text-[12px] pb-6">
         Note-sharing platform designed for students to allow anonymous sharing,
         viewing, and uploading of notes all for free. We split profit with
-        creators on earned money from ads. Scaled up to a team of of 10 interns.
+        creators on earned money from ads. Current team of 10 interns.
       </p>
       <div className="flex flex-wrap space-y-1 space-x-1 text-xs pb-2">
         <Tool text={"React"} />

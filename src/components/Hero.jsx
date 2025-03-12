@@ -56,9 +56,9 @@ const Hero = () => {
     <div className="flex flex-row w-full md:px-0 font-inter">
       <div className="flex flex-col space-y-4 w-3/4 pt-3">
         <AnimatedHeading />
-        <h4 className="text-sm md:text-xl text-gray-900">
-          Software Developer in Chicago. Python (Django) and JS (NextJS) user. I
-          love to build useful stuff.
+        <h4 className="text-sm md:text-lg text-gray-900">
+          Software Developer in Chicago. Python (Django), JS (React, NextJS),
+          and MongoDB user. I love to build useful stuff.
         </h4>
       </div>
       <div className="flex w-1/4 justify-end items-center">
