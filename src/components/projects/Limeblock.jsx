@@ -19,7 +19,7 @@ const Limeblock = () => {
         <Tool text={"Vercel"} />
         <Tool text={"Stripe"} />
         <Tool text={"Langchain"} />
-        <Tool text={"DeepSeek"} />
+        <Tool text={"npm"} />
       </div>
       <div className="flex flex-wrap space-x-3 text-sm pt-3">
         <div
@@ -39,6 +39,15 @@ const Limeblock = () => {
         >
           <IconBrandGithub className="size-3" />
           <p className="text-xs pl-2">Frontend</p>
+        </div>
+        <div
+          onClick={() => {
+            window.open("https://limeblock.io");
+          }}
+          className="flex flex-row items-center bg-gray-900 text-white px-2 py-1.5 rounded-md hover:cursor-pointer"
+        >
+          <IconWorld className="size-3" />
+          <p className="text-xs pl-2">Website</p>
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ const StudentCouncil = () => {
           <div className="flex flex-col ml-4">
             <ul className="list-disc text-sm pt-2">
               <li>Community Relations Committee Chair</li>
-              <li>Over $1,000 raised for school + non-profits</li>
+              <li>Over $2,500 raised for school + non-profits</li>
               <li>Created first Winter Wishes Bingo</li>
               <li>Helped shape my school</li>
             </ul>
