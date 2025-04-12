@@ -54,17 +54,17 @@ const AnimatedHeading = () => {
 const Hero = () => {
   return (
     <div className="flex flex-row w-full md:px-0 font-inter">
-      <div className="flex flex-col space-y-4 w-3/4 pt-3">
+      <div className="flex flex-col space-y-4 w-full md:w-3/4 pt-3 md:pt-6">
         <AnimatedHeading />
         <h4 className="text-sm md:text-lg text-gray-900">
           Software Developer in Chicago. Python (Django), JS (React, NextJS),
           and MongoDB user. I love to build useful stuff.
         </h4>
       </div>
-      <div className="flex w-1/4 justify-end items-center">
+      <div className="hidden md:flex w-1/4 justify-end items-center -mt-0 md:-mt-3">
         <img
-          src="/PixeledMe.png"
-          className="w-5/6 md:w-full h-3/4 object-cover rounded-3xl"
+          src="/GrayPfp.png"
+          className="w-1/2 md:w-full h-3/4 object-cover rounded-full"
         />
       </div>
     </div>
