@@ -63,7 +63,7 @@ const Hero = () => {
       </div>
       <div className="hidden md:flex w-1/4 justify-end items-center -mt-0 md:-mt-3">
         <img
-          src="/GrayPfp.png"
+          src="/seriousgraypfp.png"
           className="w-1/2 md:w-full h-3/4 object-cover rounded-full"
         />
       </div>
