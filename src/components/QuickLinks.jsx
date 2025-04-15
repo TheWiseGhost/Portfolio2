@@ -8,7 +8,7 @@ import {
 
 const QuickLinks = () => {
   return (
-    <div className="flex flex-row space-x-8 font-inter items-center justify-start mt-6 md:-mt-16">
+    <div className="flex flex-row space-x-8 font-inter items-center justify-start mt-6 md:-mt-8">
       <div
         onClick={() => {
           window.open(
