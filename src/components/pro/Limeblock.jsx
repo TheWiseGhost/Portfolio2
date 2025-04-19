@@ -29,12 +29,12 @@ const Limeblock = () => {
           <div className="flex flex-col ml-4">
             <ul className="list-disc text-sm w-5/6 pt-2">
               <li>
-                Coding, deployed, and managed the project all by myself. Scaling
+                Coded, deployed, and managed the project all by myself. Scaling
                 with my brother through early adopters.
               </li>
               <li>
                 Used LangChain to create AI backend + npm package for chat
-                widget (@limeblock/react)
+                widget (@limeblock/react and @limeblock/vue)
               </li>
             </ul>
           </div>

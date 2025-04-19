@@ -29,8 +29,8 @@ const NoteSlide = () => {
           <div className="flex flex-col ml-4">
             <ul className="list-disc text-sm w-5/6 pt-2">
               <li>
-                Coding, deployed, and managed the project all by myself. Scaled
-                to team of 14 managing sales + marketing + branding
+                Coded, deployed, and managed the project all by myself. Scaled
+                to team of 14 before exiting for $20k.
               </li>
               <li>
                 Used SEO, marketing, user feedback, sponsorships to grow the
