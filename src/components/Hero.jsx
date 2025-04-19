@@ -64,7 +64,7 @@ const Hero = () => {
       <div className="hidden md:flex w-48 h-48 justify-end items-center -mt-0 md:mt-6 overflow-hidden rounded-full">
         <img
           src="/seriousgraypfp.png"
-          className="w-full h-full object-cover scale-[110%] mt-5"
+          className="w-full h-full object-cover scale-[110%] mt-5 transform rotate-2"
         />
       </div>
     </div>
