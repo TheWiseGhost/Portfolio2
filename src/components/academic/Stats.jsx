@@ -15,7 +15,7 @@ const Stats = () => {
         <div className="flex flex-col pt-7">
           <p className="text-xs text-gray-700">High School Career</p>
           <h1 className="font-bold text-lg">My Stats</h1>
-          <p className="text-sm text-gray-700">I would say I'm pretty smart</p>
+          <p className="text-sm text-gray-700">Updated April 2025</p>
           <div className="flex flex-col ml-4">
             <ul className="list-disc text-sm pt-2">
               <li>4.67 GPA</li>
