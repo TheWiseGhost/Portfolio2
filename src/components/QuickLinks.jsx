@@ -12,7 +12,7 @@ const QuickLinks = () => {
       <div
         onClick={() => {
           window.open(
-            "https://noteslide-pdf.s3.amazonaws.com/uploads/66a567b89ab16f6aeee038f8_3423110240.pdf"
+            "https://noteslide-pdf.s3.amazonaws.com/uploads/66a567b89ab16f6aeee038f8_1365320d50.pdf"
           );
         }}
         className="w-fit bg-white hover:bg-gray-200 border border-gray-200 flex flex-row items-center justify-center py-1.5 px-4 rounded-md transition duration-400 hover:hover:cursor-pointer"
