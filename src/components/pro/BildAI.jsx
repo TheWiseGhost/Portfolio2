@@ -33,8 +33,8 @@ const BildAI = () => {
                 features to main production app.
               </li>
               <li>
-                Worked directly with the founders to create these new founders;
-                part of client meetings and made edits to project based off this
+                Worked directly with the founders to create these new updates;
+                part of client meetings and made edits to project based off user
                 feedback.
               </li>
             </ul>
