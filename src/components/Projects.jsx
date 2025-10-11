@@ -1,4 +1,5 @@
 import React from "react";
+import Limeblock from "./projects/Limeblock";
 import NoteSlide from "./projects/NoteSlide";
 import Competiboard from "./projects/Comeptiboard";
 
@@ -17,8 +18,8 @@ const Projects = () => {
         </button>
       </div>
       <div className="pt-6 flex flex-col md:grid md:grid-cols-2 gap-6">
+        <Limeblock />
         <NoteSlide />
-        <Competiboard />
       </div>
     </div>
   );

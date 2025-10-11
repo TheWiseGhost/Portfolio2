@@ -20,7 +20,7 @@ export default function Home() {
         <PickSide side={side} setSide={setSide} />
         {side == "pro" ? <ProSide /> : <AcademicSide />}
         <Projects />
-        <CurrentlyWorkingOn />
+        {/* <CurrentlyWorkingOn /> */}
       </div>
     </div>
   );

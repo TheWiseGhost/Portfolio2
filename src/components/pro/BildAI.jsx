@@ -1,6 +1,6 @@
 import React from "react";
 
-const NoteSlide = () => {
+const BildAI = () => {
   return (
     <div className="flex flex-col font-inter">
       <div className="flex flex-row pr-2">
@@ -8,33 +8,34 @@ const NoteSlide = () => {
           <div className="flex h-9 w-0.5 bg-gray-300" />
           <img
             onClick={() => {
-              window.open("https://noteslide.vercel.app");
+              window.open("https://bild.ai");
             }}
-            src="/NoteSlideLogo.png"
+            src="/bildai_icon.png"
             className="size-12 hover:cursor-pointer"
           />
           <div className="flex h-40 md:h-28 w-0.5 bg-gray-300" />
         </div>
         <div className="flex flex-col pt-7">
-          <p className="text-xs text-gray-700">June 2024 - Feb 2025</p>
+          <p className="text-xs text-gray-700">Sept 2025 - Present</p>
           <h1
             onClick={() => {
-              window.open("https://noteslide.vercel.app");
+              window.open("https://bild.ai");
             }}
             className="font-bold text-lg hover:cursor-pointer hover:underline"
           >
-            NoteSlide
+            Bild AI (YC W25)
           </h1>
-          <p className="text-sm text-gray-700">Founder + CEO</p>
+          <p className="text-sm text-gray-700">Software Engineering Intern</p>
           <div className="flex flex-col ml-4">
             <ul className="list-disc text-sm w-5/6 pt-2">
               <li>
-                Coded, deployed, and managed the project all by myself. Scaled
-                to team of 14 before exiting for profit.
+                Created significant codebase changes. Merged new updates &
+                features to main production app.
               </li>
               <li>
-                Used SEO, marketing, user feedback, sponsorships to grow the
-                platform to reach hundreds of students
+                Worked directly with the founders to create these new founders;
+                part of client meetings and made edits to project based off this
+                feedback.
               </li>
             </ul>
           </div>
@@ -44,4 +45,4 @@ const NoteSlide = () => {
   );
 };
 
-export default NoteSlide;
+export default BildAI;

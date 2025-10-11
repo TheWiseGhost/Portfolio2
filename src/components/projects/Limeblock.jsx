@@ -5,7 +5,7 @@ import { IconBrandGithub, IconWorld } from "@tabler/icons-react";
 const Limeblock = () => {
   return (
     <div className="flex font-inter h-[460px] flex-col border border-gray-300 rounded-xl w-full p-4 rouned-xl">
-      <img src="/Limeblock.png" className="w-full h-1/2 object-cover" />
+      <img src="/Limeblock2.png" className="w-full h-1/2 object-cover" />
       <h1 className="font-bold pb-1 text-lg">Limeblock</h1>
       <p className="text-gray-800 text-[12px] pb-6">
         AI chat widget that embeds into any app or website and performs in app

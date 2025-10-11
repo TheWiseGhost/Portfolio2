@@ -42,7 +42,7 @@ const NoteSlide = () => {
         </div>
         <div
           onClick={() => {
-            window.open("https://note-slide.com");
+            window.open("https://noteslide.vercel.app");
           }}
           className="flex flex-row items-center bg-gray-900 text-white px-2 py-1.5 rounded-md hover:cursor-pointer"
         >

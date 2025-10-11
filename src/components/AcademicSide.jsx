@@ -10,13 +10,13 @@ import Stanford from "./academic/Stanford";
 const AcademicSide = () => {
   return (
     <div className="border border-gray-300 rounded-lg px-6 w-full">
-      <Stanford />
       <Stats />
       <MathTeam />
       <Speech />
       <SkillsUSA />
       <StudentCouncil />
       <MathHonorsSociety />
+      <Stanford />
     </div>
   );
 };

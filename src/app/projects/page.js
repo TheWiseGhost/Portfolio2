@@ -1,6 +1,7 @@
 "use client";
 
 import NoteSlide from "@/components/projects/NoteSlide";
+import Limeblock from "@/components/projects/Limeblock";
 import Competiboard from "@/components/projects/Comeptiboard";
 import DropFast from "@/components/projects/DropFast";
 import MathFire from "@/components/projects/MathFire";
@@ -23,6 +24,7 @@ const page = () => {
             </button>
           </div>
           <div className="pt-6 flex flex-col md:grid md:grid-cols-2 gap-6">
+            <Limeblock />
             <NoteSlide />
             <Competiboard />
             <MathFire />
