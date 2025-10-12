@@ -41,7 +41,7 @@ const DropFast = () => {
         </div>
         <div
           onClick={() => {
-            window.open("https://dropfast.vercel.app/");
+            window.open("https://trydropfast.vercel.app/");
           }}
           className="flex flex-row items-center bg-gray-900 text-white px-2 py-1.5 rounded-md hover:cursor-pointer"
         >
