@@ -41,7 +41,7 @@ const Competiboard = () => {
         </div>
         <div
           onClick={() => {
-            window.open("https://competiboard.com");
+            window.open("https://competiboard.vercel.app/");
           }}
           className="flex flex-row items-center bg-gray-900 text-white px-2 py-1.5 rounded-md hover:cursor-pointer"
         >
