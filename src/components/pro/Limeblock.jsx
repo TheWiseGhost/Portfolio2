@@ -29,12 +29,14 @@ const Limeblock = () => {
           <div className="flex flex-col ml-4">
             <ul className="list-disc text-sm w-5/6 pt-2">
               <li>
-                Coded, deployed, and managed the project all by myself. Scaling
-                with my brother through early adopters.
+                Coded, deployed, and managed the project all by myself. Became
+                profitable in less than 1 month and scaled through early
+                adopters.
               </li>
               <li>
-                Used LangChain to create AI backend + npm package for chat
-                widget (@limeblock/react and @limeblock/vue)
+                Accepted into Founder's Inc. and spent 6 weeks in summer 2025 to
+                meet and learn from CEOs (Ex. Discord) and influencers (Ex. Jake
+                Paul).
               </li>
             </ul>
           </div>
