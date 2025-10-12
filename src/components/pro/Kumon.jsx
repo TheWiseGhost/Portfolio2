@@ -5,12 +5,12 @@ const Kumon = () => {
     <div className="flex flex-col font-inter">
       <div className="flex flex-row pr-2">
         <div className="pr-4 max-h-full min-w-fit place-items-center justify-center">
-          <div className="flex h-8 w-0.5 bg-gray-300" />
+          <div className="flex h-8 w-0.5 bg-white md:bg-gray-300" />
           <img
             src="https://www.kumon.ie/storage/uploads/wZP2QfNDj62UJXBjUjGDnAssrMW3ihbx7JUyzFqY.png"
             className="size-12 rounded-full"
           />
-          <div className="flex h-40 md:h-32 w-0.5 bg-gray-300" />
+          <div className="flex h-48 md:h-32 w-0.5 bg-white md:bg-gray-300" />
         </div>
         <div className="flex flex-col pt-6">
           <p className="text-xs text-gray-700">May 2023 - Oct 2023</p>

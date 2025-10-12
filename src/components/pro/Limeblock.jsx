@@ -5,7 +5,7 @@ const Limeblock = () => {
     <div className="flex flex-col font-inter">
       <div className="flex flex-row pr-2">
         <div className="pr-4 max-h-full min-w-fit place-items-center justify-center">
-          <div className="flex h-8 w-0.5 bg-gray-300" />
+          <div className="flex h-8 w-0.5 bg-white md:bg-gray-300" />
           <img
             onClick={() => {
               window.open("https://limeblock.io");
@@ -13,7 +13,7 @@ const Limeblock = () => {
             src="/LimeblockLogo.png"
             className="size-12 hover:cursor-pointer"
           />
-          <div className="flex h-40 md:h-28 w-0.5 bg-gray-300" />
+          <div className="flex h-40 md:h-28 w-0.5 bg-white md:bg-gray-300" />
         </div>
         <div className="flex flex-col pt-6">
           <p className="text-xs text-gray-700">Mar 2025 - Sept 2025</p>
