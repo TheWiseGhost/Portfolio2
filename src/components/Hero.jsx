@@ -63,8 +63,9 @@ const Hero = () => {
       </div>
       <div className="hidden md:flex size-44 justify-end items-center -mt-0 md:mt-6 overflow-hidden rounded-full">
         <img
-          src="/seriousgraypfp.png"
-          className="w-full h-full object-cover scale-[110%] mt-5 transform rotate-4"
+          src="https://media.licdn.com/dms/image/v2/D5603AQEqXz5LjGMWSA/profile-displayphoto-scale_200_200/B56ZxiXzNwKAAY-/0/1771176933487?e=1772668800&v=beta&t=08WhLSxJw8IsbV1nPen-tvmh7_xRcQnyzhRhfBdZub0"
+          className="w-full h-full object-cover mt-5"
+          alt="Profile"
         />
       </div>
     </div>
