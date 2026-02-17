@@ -63,7 +63,7 @@ const Hero = () => {
       </div>
       <div className="hidden md:flex size-44 justify-end items-center -mt-0 md:mt-6 overflow-hidden rounded-full">
         <img
-          src="/PFPgray2.png"
+          src="/PFPGray.png"
           className="w-full h-full object-cover mt-9 scale-125"
           alt="Profile"
         />
