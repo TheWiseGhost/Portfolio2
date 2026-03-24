@@ -61,10 +61,10 @@ const Hero = () => {
           and MongoDB user. I love to build useful stuff.
         </h4>
       </div>
-      <div className="hidden md:flex size-44 justify-end items-center -mt-0 md:mt-6 overflow-hidden rounded-full">
+      <div className="hidden md:flex size-48 justify-end items-center -mt-0 md:mt-6 overflow-hidden rounded-full">
         <img
-          src="/PFPGray.png"
-          className="w-full h-full object-cover mt-9 scale-125"
+          src="/tuff_pfp_gray.png"
+          className="h-full w-full scale-100 object-cover object-[55%_42%] -rotate-3"
           alt="Profile"
         />
       </div>
